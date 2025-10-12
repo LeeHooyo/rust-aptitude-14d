@@ -14,6 +14,8 @@ cargo run -p day02_ownership
 cargo test -p day02_ownership
 ```
 
+---
+
 ## Notes
 
 - `let s2 = s1;` → **소유권 이동 (move)**, `s1`은 무효  
