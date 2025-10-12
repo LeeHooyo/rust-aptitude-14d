@@ -14,8 +14,6 @@ cargo run -p day02_ownership
 cargo test -p day02_ownership
 ```
 
----
-
 ## Notes
 
 - `let s2 = s1;` → **소유권 이동 (move)**, `s1`은 무효  
@@ -26,8 +24,6 @@ cargo test -p day02_ownership
 - 스코프로 참조 수명을 명시적으로 끊으면 **충돌 해결 가능**  
 - `move`는 포인터 수준 이동 **O(1)**, `clone`은 메모리 복제 **O(n)**  
 
----
-
 ## Errors & Fixes
 
 ### ❌ `cannot borrow as mutable because it is also borrowed as immutable`
@@ -37,8 +33,6 @@ cargo test -p day02_ownership
 ### ❌ `borrowed value does not live long enough`
 - **원인:** 반환 값의 참조가 지역 변수보다 오래 살아남을 때 발생  
 - **해결:** 함수가 소유권을 반환하거나 참조의 lifetime을 명확히 제한  
-
----
 
 ## Reflection
 
