@@ -12,6 +12,7 @@
 ```bash
 cargo run -p day02_ownership
 cargo test -p day02_ownership
+```
 
 ## Notes
 
