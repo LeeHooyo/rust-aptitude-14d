@@ -17,3 +17,7 @@ version = "0.1.0"
 [[package]]
 name = "day03_shadow"
 version = "0.1.0"
+
+[[package]]
+name = "day04_functions"
+version = "0.1.0"
