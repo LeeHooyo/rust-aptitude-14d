@@ -26,8 +26,6 @@ cargo test -p day04_functions
 - **소유권을 반환**(`String`)하면 라이프타임 제약이 단순해진다.  
 - `'static`: 프로그램 전체에서 유효한 문자열 리터럴 등.
 
----
-
 ## Errors & Fixes
 - ❌ **cannot borrow ... as mutable more than once at a time**  
   → 원인: 같은 데이터에 대해 가변 참조 2개 이상 생성됨.  
@@ -40,8 +38,6 @@ cargo test -p day04_functions
 - ❌ **cannot move out of ...**  
   → 원인: 참조를 통해 접근 중인데 move 시도.  
   → 해결: clone()은 진짜 필요할 때만, 가능하면 참조/슬라이스로 처리.
-
----
 
 ## Reflection
 - 러스트는 **데이터 경쟁을 타입 시스템으로 차단**한다.  
