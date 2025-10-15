@@ -22,8 +22,6 @@ rust-aptitude-14d/
     └── cli_text_analyzer/ # Day14 통합 실습 프로젝트
 ```
 
----
-
 ## Daily Topics
 
 | Day | Topic | Core Concepts |
@@ -43,8 +41,6 @@ rust-aptitude-14d/
 | 13 | Async & Await | Future, tokio |
 | 14 | CLI Mini Project | cli_text_analyzer 완성 |
 
----
-
 ## Notes
 각 Day는 다음 형식의 Obsidian 노트로 구성됨:
 ```
@@ -57,15 +53,11 @@ notes/dayXX.md
 - **Errors & Fixes**
 - **Reflection**
 
----
-
 ## Run Examples
 ```bash
 cargo run -p dayXX
 cargo test -p dayXX
 ```
-
----
 
 ## Philosophy
 - **Safety**: 소유권과 라이프타임을 통한 메모리 안정성  
