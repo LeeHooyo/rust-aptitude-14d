@@ -7,6 +7,7 @@
 ---
 
 ## Structure
+```
 rust-aptitude-14d/
 ├── Cargo.toml            # Workspace definition
 ├── notes/                # Obsidian 학습 노트 (day01~day14)
@@ -19,6 +20,7 @@ rust-aptitude-14d/
 │   └── day06_enum_match/
 └── projects/
     └── cli_text_analyzer/ # Day14 통합 실습 프로젝트
+```
 
 ---
 
@@ -45,7 +47,9 @@ rust-aptitude-14d/
 
 ## Notes
 각 Day는 다음 형식의 Obsidian 노트로 구성됨:
+```
 notes/dayXX.md
+```
 포함 항목:
 - **Objectives** (학습 목표)
 - **Commands** (터미널 명령어)
@@ -56,8 +60,10 @@ notes/dayXX.md
 ---
 
 ## Run Examples
+```bash
 cargo run -p dayXX
 cargo test -p dayXX
+```
 
 ---
 
