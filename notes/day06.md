@@ -13,7 +13,7 @@
 ```bash
 cargo run -p day06_enum_match
 cargo test -p day06_enum_match
-``
+```
 
 ## Notes
 - `enum`은 C의 단순한 상수 집합이 아니라, **데이터를 담을 수 있는 타입**.  

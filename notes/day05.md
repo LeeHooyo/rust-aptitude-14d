@@ -16,7 +16,6 @@ cargo test -p day05_structs
 ```
 
 ## Notes
-
 - `struct`는 데이터, `impl`은 행동.  
 - `self`, `&self`, `&mut self` → 소유권/불변/가변 권한 구분.  
 - `trait`는 “이 타입은 이런 기능을 제공해야 한다”는 계약서.  
