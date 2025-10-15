@@ -1,5 +1,7 @@
 // Day06 — Enums & Pattern Matching
 
+mod state_pattern;
+
 #[derive(Debug)]
 enum ConnectionState {
     Disconnected,
@@ -29,6 +31,8 @@ fn simulate_connection(step: u32) -> ConnectionState {
 }
 
 fn main() {
+    println!("=== [Day06] Enum & Pattern Matching ===");
+    
     for step in 0..=5 {
         let state = simulate_connection(step);
         println!("[{:?}] {}", state, state.describe());
@@ -48,4 +52,7 @@ fn main() {
     } else {
         println!("파싱 실패");
     }
+
+    println!("\n=== [State Pattern Demo] ===");
+    state_pattern::run_demo();
 }
