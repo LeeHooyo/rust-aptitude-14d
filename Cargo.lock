@@ -29,3 +29,7 @@ version = "0.1.0"
 [[package]]
 name = "day06_enum_match"
 version = "0.1.0"
+
+[[package]]
+name = "day07_collections"
+version = "0.1.0"
