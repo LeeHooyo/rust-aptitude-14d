@@ -192,8 +192,6 @@ Area: 50
 Volume: 113.1
 ```
 
----
-
 ## Errors & Fixes
 
 - ❌ `use of unresolved module or unlinked crate 'mathlib'`  
@@ -207,8 +205,6 @@ Volume: 113.1
 - ⚠️ `file not found for module 'math'`  
   **원인:** `mod math;` 선언했지만 실제 디렉토리 이름/파일 불일치  
   **해결:** `src/math/mod.rs` 경로 확인 및 일치시킬 것
-
----
 
 ## Reflection
 
