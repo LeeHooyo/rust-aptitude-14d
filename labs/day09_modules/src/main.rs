@@ -1,19 +1,14 @@
-mod utils;
-mod math;
-mod io_layer;
-
-use math::area;
-use utils::greet;
-use io_layer::logger;
+use mathlib::{geometry, utils, version};
 
 fn main() {
-    greet("Ferris");
-    let (w, h) = (10.0, 20.0);
-    println!("사각형 넓이: {}", area::rectangle(w, h));
-    println!("삼각형 넓이: {}", area::triangle(w, h));
+    println!("=== [Day09 Modules & Crates Demo] ===");
+    println!("Using {}", version());
 
-    // private 모듈 접근 시도 (주석 참고)
-    // io_layer::secret::hidden(); // private module access
+    geometry::describe();
+    let area = geometry::area::rectangle(10.0, 5.0);
+    let vol = geometry::volume::sphere(3.0);
 
-    logger::info("계산 완료");
+    println!("Area: {}", utils::round2(area));
+    println!("Volume: {}", utils::round2(vol));
 }
+
