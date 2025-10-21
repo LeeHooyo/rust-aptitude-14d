@@ -46,5 +46,9 @@ dependencies = [
 ]
 
 [[package]]
+name = "day10_io"
+version = "0.1.0"
+
+[[package]]
 name = "mathlib"
 version = "0.1.0"
